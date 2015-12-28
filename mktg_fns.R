@@ -134,7 +134,7 @@ members = cutree(c, k = 15)
 members[1:100]
 table(members)
 
-# Show average/ aggregrated profile of each segment
+# Show average/ aggregrated profile (average revenue) of each segment
 aggregate(customers_sample[, 2:4], by = list(members), mean)
 
 
